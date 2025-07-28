@@ -114,12 +114,12 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Kitchen Gallery */}
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="h-64 bg-gradient-to-br from-industrial-gray to-industrial-dark flex items-center justify-center">
-                <div className="text-center text-white">
-                  <Icon name="ChefHat" size={48} className="mx-auto mb-4 text-secondary" />
-                  <p className="text-lg font-semibold">Современная кухня</p>
-                  <p className="text-sm opacity-80">ЛДСП Egger + МДФ фасады</p>
-                </div>
+              <div className="h-64 overflow-hidden">
+                <img 
+                  src="/img/287d09d8-4814-4ce1-98b7-cc038db6d574.jpg" 
+                  alt="Современная кухня в индустриальном стиле"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <CardContent className="p-4">
                 <h4 className="font-semibold mb-2">Кухня "Индастриал"</h4>
@@ -128,12 +128,12 @@ export default function Index() {
             </Card>
 
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="h-64 bg-gradient-to-br from-industrial-light to-industrial-gray flex items-center justify-center">
-                <div className="text-center text-primary">
-                  <Icon name="Home" size={48} className="mx-auto mb-4 text-secondary" />
-                  <p className="text-lg font-semibold">Светлая кухня</p>
-                  <p className="text-sm opacity-80">Белый глянец + дерево</p>
-                </div>
+              <div className="h-64 overflow-hidden">
+                <img 
+                  src="/img/a56a929b-3745-479c-8370-e373a4287627.jpg" 
+                  alt="Светлая кухня в скандинавском стиле"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <CardContent className="p-4">
                 <h4 className="font-semibold mb-2">Кухня "Скандинавия"</h4>
@@ -143,12 +143,12 @@ export default function Index() {
 
             {/* Wardrobes Gallery */}
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="h-64 bg-gradient-to-br from-industrial-dark to-primary flex items-center justify-center">
-                <div className="text-center text-white">
-                  <Icon name="Cabinet" size={48} className="mx-auto mb-4 text-secondary" />
-                  <p className="text-lg font-semibold">Шкаф-купе</p>
-                  <p className="text-sm opacity-80">3 двери с зеркалами</p>
-                </div>
+              <div className="h-64 overflow-hidden">
+                <img 
+                  src="/img/11c63d3d-5cff-4279-b0fd-e56603f61718.jpg" 
+                  alt="Современный шкаф-купе"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <CardContent className="p-4">
                 <h4 className="font-semibold mb-2">Шкаф "Лофт"</h4>
